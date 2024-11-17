@@ -59,7 +59,7 @@ end
 endmodule
 
 ```
-
+```
 module sevenseg_tb;
 reg [3:0]seg;
 wire [6:0]s;
@@ -87,6 +87,7 @@ endmodule    // Monitor outputs
         $monitor("Time=%0t | binary_input=%b | seg_output=%b", $time, binary_input, seg_output);
     end
 endmodule
+```
 sample image
 ![Screenshot 2024-10-09 153124](https://github.com/user-attachments/assets/e2ff4ff3-ddbe-46ad-9fe4-b84a0d86b28d)
 
